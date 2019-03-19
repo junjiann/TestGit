@@ -22,7 +22,7 @@ public class TestTableOutController {
 
         String resultFile = System.getProperty("user.dir") +
                 File.separator + "src\\main\\resources\\result01.pptx";
-
+        System.out.println("测试");
         Map<Integer, SlideData> data = new HashMap<>();
         SlideData slideData = new SlideData();
         Map<String, String> textDataTest = (Map<String, String>) passMap.get("textData");
